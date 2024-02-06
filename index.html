@@ -20,8 +20,10 @@
 <body>
 	<header>
 		<img src="images/shape_up_logo.png" alt="Shape Up Logo">
+		<div>
 		<h2>Shape Up</h2>
-		<h2>Find the best fit for you</h2>
+		<h3>Find the best fit for you</h3>
+		</div>
 	</header>
 	<main>
 		<section>
@@ -53,14 +55,15 @@
 <li><a href="https://www.medicalnewstoday.com/articles/cardio-exercises-at-home" target="_blank">Cardiovascular training</a></li>
 <li><a href="https://www.self.com/gallery/power-yoga-workout" target="_blank">Yoga workout</a></li>
 </ul>
-<div>
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem, nisi impedit numquam fugit, eius deserunt ex eum architecto nemo minima repellendus consequatur molestiae sunt omnis nesciunt unde voluptates quas!
-</div>
 </aside> 
 
 	</main>
 	<footer>
-		<p>&copy; 2024 Shape Up!</p>
+		<p>&copy; <span id="copyrightyear"></span> Shape Up!</p>
 	</footer>
+	<script>
+        const d = new Date();
+        document.getElementById('copyrightyear').innerHTML = d.getFullYear();
+    </script>
 </body>
 </html>
