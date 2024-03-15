@@ -228,6 +228,7 @@ footer p {
 
 @media only  screen and (max-width: 500px) {
     body {
+        max-width: 1200px;
         box-shadow: none;
         font-size: 90%;
 
